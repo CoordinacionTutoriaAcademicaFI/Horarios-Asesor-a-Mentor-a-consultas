@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horarios Asesoría Disciplinar y  Mentoría Académica. FI-UAEMéx</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: {50:'#e8f0ff',100:'#cfe0ff',200:'#a9c7ff',300:'#7aa7ff',400:'#4b84ff',500:'#2e61f0',600:'#234bca',700:'#1f3ea1',800:'#1c367e',900:'#0b1b4f'} } } } };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <style>
+    body { background: linear-gradient(135deg, #0b1b4f 0%, #1c367e 35%, #2e61f0 100%); }
+    .input{width:100%;border-radius:.75rem;border:1px solid #000;background:rgba(255,255,255,.94);padding:.5rem .75rem;outline:none;color:#0b1b4f}
+    .input:focus{box-shadow:0 0 0 4px rgba(46,97,240,.25)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:.75rem;padding:.5rem .9rem;font-weight:700}
+    .btn-primary{background:#2e61f0;color:#fff}.btn-primary:hover{background:#234bca}
+    .btn-soft{background:#fff;border:1px solid #000;color:#0b1b4f}.btn-soft:hover{background:#f8fafc}
+    .card{border-radius:1rem;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);box-shadow:0 8px 40px rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.5);color:#0b1b4f}
+    .pill{display:inline-flex;align-items:center;border-radius:9999px;background:#e2e8f0;padding:2px 8px;font-size:12px;font-weight:700;color:#0b1b4f;border:1px solid #000}
+    .chip{display:inline-flex;align-items:center;border-radius:9999px;border:1px solid #000;padding:2px 8px;font-size:12px;font-weight:700;margin-right:4px;margin-bottom:4px;background:#fff;color:#0b1b4f}
+    .menu{position:absolute;z-index:50;margin-top:4px;max-height:14rem;width:100%;overflow:auto;border-radius:.75rem;border:1px solid #000;background:#fff;box-shadow:0 10px 15px -3px rgba(0,0,0,.4),0 4px 6px -4px rgba(0,0,0,.3)}
+    .menu li{padding:.5rem .75rem;font-size:.95rem;cursor:pointer}
+    .menu li:hover{background:#eef2ff}
+    .disabled{opacity:.5;pointer-events:none}
+    .dropdown{position:relative}
+    .dropdown-menu{position:absolute;right:0;top:100%;margin-top:.5rem;background:#fff;border:1px solid #000;border-radius:.75rem;box-shadow:0 10px 15px -3px rgba(0,0,0,.35),0 4px 6px -4px rgba(0,0,0,.25);min-width:340px;overflow:hidden}
+    .dropdown-item{display:flex;gap:.5rem;align-items:center;padding:.7rem 1rem;font-weight:800;color:#0b1b4f}
+    .dropdown-item:hover{background:#eef2ff}
+    .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.55);padding:1rem}
+    .modal.show{display:flex}
+  </style>
+</head>
+<body class="min-h-screen text-slate-50">
+  <header class="sticky top-0 z-40 bg-white/10 backdrop-blur-md border-b border-white/20">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-xl bg-brand-600 text-white grid place-content-center font-black">H</div>
+        <h1 class="text-lg font-bold leading-tight text-white">Horarios Asesoría Disciplinar y  Mentoría Académica. FI-UAEMéx</h1>
+      </div>
+      <div class="flex items-center gap-2">
+        <div class="dropdown" id="topMenuWrap">
+          <button class="btn btn-soft" id="topMenuBtn">Registrar horario ▾</button>
+          <div class="dropdown-menu hidden" id="topMenu">
+            <button class="dropdown-item w-full text-left" id="menuAsesoria">Asesoría Disciplinar (profesor(a)/Tutor(a))</button>
+            <button class="dropdown-item w-full text-left" id="menuMentoria">Mentoría (alumno(a))</button>
+          </div>
+        </div>
+        <button id="adminBtn" class="btn btn-soft">Administrador</button>
+        <button id="logoutBtn" class="btn btn-soft hidden">Salir</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-4 py-8">
+    <section id="screen"></section>
+  </main>
+
+  <!-- Modal Admin -->
+  <div id="adminModal" class="modal">
+    <div class="card max-w-md w-full p-6">
+      <h3 class="text-lg font-bold">Acceso de Administrador</h3>
+      <form id="adminForm" class="mt-4 space-y-3">
+        <label class="block">
+          <span class="text-sm font-medium">correo</span>
+          <input id="adminUser" class="input mt-1" placeholder="correo" />
+        </label>
+        <label class="block">
+          <span class="text-sm font-medium">Contraseña</span>
+          <input id="adminPass" type="password" class="input mt-1" placeholder="••••••" />
+        </label>
+        <div class="flex items-center justify-end gap-2 pt-2">
+          <button type="button" class="btn btn-soft" id="adminCancel">Cancelar</button>
+          <button class="btn btn-primary">Entrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<script>
+/***************
+ * Estado
+ ***************/
+const ADMIN_PASS = '7ut0r1a.4pp';
+const LS_KEY = 'horarios_mvp_consulta_v1';
+const days = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado']; // sin acentos
+const TIME_SLOTS = genTimeSlots('07:00','20:30',30);
+
+const state = {
+  session: null,
+  catalog: { materias: [] },
+  allow: { tutoresRFC: [], mentoresCuenta: [], alumnosCuenta: [] },
+  publishedSchedules: [], // <-- LO QUE CONSULTAN LOS ALUMNOS (data/schedules.json)
+  logs: []                // consultas/contactos (local, para exportar)
+};
+
+const $ = s=>document.querySelector(s);
+const $$ = s=>Array.from(document.querySelectorAll(s));
+const uid = (p='id')=> `${p}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2,8)}`;
+const nowISO = ()=> new Date().toISOString();
+const norm = (s='') => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+
+function load(){ try{ const raw = localStorage.getItem(LS_KEY); if(raw) Object.assign(state, JSON.parse(raw)); }catch(e){} }
+function save(){ localStorage.setItem(LS_KEY, JSON.stringify(state)); }
+function setSession(session){ state.session=session; save(); render(); }
+
+function genTimeSlots(start='07:00', end='20:30', stepMin=30){
+  const out=[]; const [sh,sm]=start.split(':').map(Number); const [eh,em]=end.split(':').map(Number);
+  let t=new Date(2000,0,1,sh,sm,0); const endT=new Date(2000,0,1,eh,em,0);
+  while(t<=endT){ out.push(`${String(t.getHours()).padStart(2,'0')}:${String(t.getMinutes()).padStart(2,'0')}`); t=new Date(t.getTime()+stepMin*60000); }
+  return out;
+}
+
+/***************
+ * Carga desde repo (CSV/JSON)
+ ***************/
+async function tryFetchText(path){
+  try{
+    const res = await fetch(path + `?v=${Date.now()}`, {cache:'no-store'});
+    if(!res.ok) return null;
+    return await res.text();
+  }catch(_){ return null; }
+}
+async function tryFetchJSON(path){
+  const t = await tryFetchText(path);
+  if(!t) return null;
+  try{ return JSON.parse(t); }catch(_){ return null; }
+}
+function parseCSV(text){
+  const clean = text.replace(/\ufeff/g,'').replace(/\r/g,'');
+  const lines = clean.split('\n').filter(l=>l.trim().length>0);
+  if(!lines.length) return [];
+  const sep = (lines[0].includes(';') && !lines[0].includes(',')) ? ';' : ',';
+  const headers = lines[0].split(sep).map(h=>h.trim().toLowerCase());
+  return lines.slice(1).map(line=>{
+    const cells = line.split(sep);
+    const obj={}; headers.forEach((h,i)=> obj[h]=(cells[i]||'').trim());
+    return obj;
+  });
+}
+function loadMateriasFromCsvText(t){
+  const rows=parseCSV(t);
+  const key = rows[0] && ('materia' in rows[0]) ? 'materia' : Object.keys(rows[0]||{})[0];
+  state.catalog.materias = rows.map(r=>r[key]).filter(Boolean);
+  save();
+}
+function loadAllowFromCsvText(which,t){
+  const rows=parseCSV(t);
+  const pick=(row,keys)=>{ for(const k of keys){ if(row[k] && String(row[k]).trim()) return String(row[k]).trim(); } return ''; };
+  if(which==='tutores') state.allow.tutoresRFC = rows.map(r=>pick(r,['rfc','RFC'])).filter(Boolean).map(x=>x.toUpperCase());
+  if(which==='mentores') state.allow.mentoresCuenta = rows.map(r=>pick(r,['cuenta','Cuenta'])).filter(Boolean);
+  if(which==='alumnos') state.allow.alumnosCuenta = rows.map(r=>pick(r,['cuenta','Cuenta'])).filter(Boolean);
+  save();
+}
+function normalizeDay(d){
+  const m={lunes:'Lunes',martes:'Martes',miercoles:'Miercoles',miércoles:'Miercoles',jueves:'Jueves',viernes:'Viernes',sabado:'Sabado',sábado:'Sabado'};
+  const k=norm(String(d||'')); return m[k] || String(d||'');
+}
+function normalizeType(t){
+  const k=norm(String(t||'')); if(k==='tutorial'||k==='asesoria'||k==='mentoria') return k; return 'asesoria';
+}
+function mapScheduleRow(r){
+  const subjects = Array.isArray(r.subjects) ? r.subjects : String(r.subjects||'').split('|').map(x=>x.trim()).filter(Boolean);
+  return {
+    id: String(r.id||'').trim() || uid('sch'),
+    ownerId: String(r.owner_id||r.ownerId||'').trim(),
+    ownerRole: String(r.owner_role||r.ownerRole||'').trim().toLowerCase(),
+    ownerName: String(r.owner_name||r.ownerName||'(Sin nombre)'),
+    email: String(r.email||'').trim(),
+    type: normalizeType(r.type),
+    day: normalizeDay(r.day),
+    start: String(r.start||'').trim(),
+    end: String(r.end||'').trim(),
+    subjects,
+    place: String(r.place||r.lugar||'').trim()
+  };
+}
+async function loadPublishedSchedules(){
+  const j = await tryFetchJSON('data/schedules.json') || await tryFetchJSON('schedules.json');
+  if(j){
+    const arr = Array.isArray(j) ? j : (j.items||[]);
+    state.publishedSchedules = arr.map(mapScheduleRow);
+    save(); return;
+  }
+  const c = await tryFetchText('data/schedules.csv') || await tryFetchText('schedules.csv');
+  if(c){
+    const rows=parseCSV(c);
+    state.publishedSchedules = rows.map(mapScheduleRow);
+    save(); return;
+  }
+  state.publishedSchedules=[];
+  save();
+}
+async function bootstrapData(){
+  const mCSV = await tryFetchText('data/materias.csv') || await tryFetchText('materias.csv');
+  if(mCSV) loadMateriasFromCsvText(mCSV);
+
+  const tCSV = await tryFetchText('data/allowlist_tutores.csv') || await tryFetchText('allowlist_tutores.csv');
+  if(tCSV) loadAllowFromCsvText('tutores', tCSV);
+
+  const meCSV = await tryFetchText('data/allowlist_mentores.csv') || await tryFetchText('allowlist_mentores.csv');
+  if(meCSV) loadAllowFromCsvText('mentores', meCSV);
+
+  const aCSV = await tryFetchText('data/allowlist_alumnos.csv') || await tryFetchText('allowlist_alumnos.csv');
+  if(aCSV) loadAllowFromCsvText('alumnos', aCSV);
+
+  await loadPublishedSchedules();
+  save();
+}
+
+/***************
+ * UI
+ ***************/
+function render(){
+  $('#logoutBtn')?.classList.toggle('hidden', !state.session);
+  renderHome($('#screen'));
+}
+function renderHome(container){
+  container.innerHTML = `
+    <div class="max-w-2xl mx-auto">
+      <article class="card p-8 text-center">
+        <h2 class="text-2xl font-extrabold mb-3">Consulta de horarios de <span class="text-brand-700">asesoría disciplinar</span> y <span class="text-brand-700">mentoría</span></h2>
+        <p class="text-sm text-slate-600">Encuentra rápidamente el horario y la unidad de aprendizaje que necesitas.</p>
+        <div class="mt-6"><button class="btn btn-primary text-lg px-6" id="goConsulta">Consultar horarios</button></div>
+        <p class="mt-3 text-xs text-slate-700">Horarios publicados cargados: <b>${state.publishedSchedules.length}</b></p>
+      </article>
+    </div>`;
+
+  $('#goConsulta').onclick = ()=> renderConsultaStart();
+
+  const menuBtn=$('#topMenuBtn'), menu=$('#topMenu'), wrap=$('#topMenuWrap');
+  menuBtn.onclick = ()=> menu.classList.toggle('hidden');
+  document.addEventListener('click', e=>{ if(!wrap.contains(e.target)) menu.classList.add('hidden'); });
+  $('#menuAsesoria').onclick = ()=> showLoginInfo('tutor');
+  $('#menuMentoria').onclick = ()=> showLoginInfo('mentor');
+
+  $('#adminBtn').onclick = ()=> $('#adminModal').classList.add('show');
+  $('#logoutBtn').onclick = ()=>{ state.session=null; save(); render(); };
+
+  $('#adminCancel').onclick = ()=> $('#adminModal').classList.remove('show');
+  $('#adminForm').onsubmit = (e)=>{
+    e.preventDefault();
+    const p = $('#adminPass').value.trim();
+    if(p===ADMIN_PASS){
+      $('#adminModal').classList.remove('show');
+      setSession({role:'admin', id:'admin'});
+      renderAdmin($('#screen'));
+    } else alert('Credenciales incorrectas.');
+  };
+}
+
+/***************
+ * Alumno: consulta sobre publishedSchedules (repo)
+ ***************/
+function renderConsultaStart(){
+  const container=$('#screen');
+  container.innerHTML = `
+    <div class="max-w-xl mx-auto card p-6">
+      <h2 class="text-xl font-bold">Ingresa tu número de cuenta</h2>
+      <form id="alumnoStart" class="mt-4 space-y-3">
+        <label class="block"><span class="text-sm font-medium">Número de cuenta (7 dígitos)</span>
+          <input id="alumnoCuenta" class="input mt-1" placeholder="Escribe Número de Cuenta" required />
+        </label>
+        <div class="flex items-center justify-end gap-2 pt-2">
+          <button type="button" class="btn btn-soft" onclick="render()">Cancelar</button>
+          <button class="btn btn-primary">Continuar</button>
+        </div>
+      </form>
+    </div>`;
+  $('#alumnoStart').onsubmit = (e)=>{
+    e.preventDefault();
+    const id=$('#alumnoCuenta').value.trim();
+    if(!/^\d{7}$/.test(id)) return alert('El número de cuenta debe tener 7 dígitos.');
+    // Si tienes lista blanca de alumnos cargada, la aplicamos
+    if(state.allow.alumnosCuenta.length && !state.allow.alumnosCuenta.includes(id)) return alert('Número de cuenta no autorizado para consultar.');
+    setSession({role:'alumno', id});
+    renderAlumno($('#screen'), {id});
+  };
+}
+
+function renderAlumno(container, user){
+  container.innerHTML = `
+    <div class="grid md:grid-cols-2 gap-6">
+      <section class="card p-6">
+        <header class="flex items-start justify-between">
+          <div>
+            <h2 class="text-lg font-bold">Consulta de horarios</h2>
+            <p class="text-sm text-slate-700">Cuenta: <span class="font-mono">${user.id}</span></p>
+          </div>
+        </header>
+        <form id="formBuscar" class="mt-4 space-y-3">
+          <fieldset>
+            <legend class="text-sm font-medium">Tipo</legend>
+            <div class="mt-1 grid grid-cols-2 gap-2 text-slate-800">
+              <label class="flex items-center gap-2 text-sm"><input type="checkbox" class="rounded border-black" name="tipo" value="asesoria" checked/> Asesoría disciplinar</label>
+              <label class="flex items-center gap-2 text-sm"><input type="checkbox" class="rounded border-black" name="tipo" value="mentoria" checked/> Mentoría</label>
+              <label class="flex items-center gap-2 text-sm"><input type="checkbox" class="rounded border-black" name="tipo" value="tutorial"/> Atención tutorial</label>
+            </div>
+          </fieldset>
+          <div id="pickerAlumno"></div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <label class="block"><span class="text-sm font-medium">Día (opcional)</span>
+              <select id="fDia" class="input mt-1"><option value="">Todos</option>${days.map(d=>`<option>${d}</option>`).join('')}</select>
+            </label>
+            <label class="block"><span class="text-sm font-medium">Hora (opcional)</span>
+              <select id="fHora" class="input mt-1"><option value="">Todas</option>${TIME_SLOTS.map(h=>`<option value="${h}">${h}</option>`).join('')}</select>
+            </label>
+            <label class="block"><span class="text-sm font-medium">Nombre (opcional)</span>
+              <input id="fNombre" class="input mt-1" placeholder="Asesor/Mentor" />
+            </label>
+          </div>
+          <div class="flex items-center justify-end gap-2 pt-2">
+            <button type="button" class="btn btn-soft" id="btnLimpiar">Limpiar</button>
+            <button class="btn btn-primary">Buscar</button>
+          </div>
+          <p class="text-xs text-slate-700 mt-2">Fuente: <b>data/schedules.json</b> (repo)</p>
+        </form>
+      </section>
+      <section class="card p-6">
+        <header class="flex items-start justify-between">
+          <h3 class="text-lg font-bold">Resultados</h3>
+          <span id="countResultados" class="pill">0 encontrados</span>
+        </header>
+        <div id="listResultados" class="mt-3 grid gap-3"></div>
+        <div id="paginacion" class="mt-4 flex items-center justify-between hidden">
+          <button class="btn btn-soft" id="prevPage">← Anterior</button>
+          <div class="text-sm"><span id="pageInfo">Página 1 de 1</span></div>
+          <button class="btn btn-soft" id="nextPage">Siguiente →</button>
+        </div>
+      </section>
+    </div>`;
+
+  const picker = subjectPicker({mountId:'pickerAlumno', selected:[], onChange:()=>{}, allowCustom:false});
+  let currentPage=1; const pageSize=6; let currentResults=[];
+
+  function applySearch(){
+    const src = state.publishedSchedules || [];
+    const tipos = $$('input[name="tipo"]:checked').map(i=>i.value);
+    const materias = picker.get();
+    const dia = $('#fDia').value.trim();
+    const hora = $('#fHora').value;
+    const nombre = $('#fNombre').value.trim().toLowerCase();
+
+    currentResults = src.filter(s=>{
+      if(!tipos.includes(s.type)) return false;
+      if(dia && s.day!==dia) return false;
+      // filtro por hora solo si start/end tienen formato HH:MM
+      if(hora){
+        const okTime = /^\d{2}:\d{2}$/.test(s.start) && /^\d{2}:\d{2}$/.test(s.end);
+        if(okTime){
+          if(!(s.start<=hora && hora<=s.end)) return false;
+        } else {
+          // si no hay hora válida, no pasa filtro por hora
+          return false;
+        }
+      }
+      if(nombre && !(s.ownerName||'').toLowerCase().includes(nombre)) return false;
+      if(materias.length){
+        if(!(s.subjects||[]).some(m=> materias.includes(m))) return false;
+      }
+      return true;
+    });
+
+    logEvent({ type:'search', account:user.id, filters:{ tipos, materias, dia, hora, nombre } });
+    currentPage=1; renderResultsPage();
+  }
+
+  function renderResultsPage(){
+    $('#countResultados').textContent = `${currentResults.length} resultado${currentResults.length===1?'':'s'}`;
+    const wrap=$('#listResultados');
+    if(!currentResults.length){
+      wrap.innerHTML = `<p class="text-sm text-slate-700">No se encontraron horarios con los filtros seleccionados.</p>`;
+      $('#paginacion').classList.add('hidden');
+      return;
+    }
+    const start=(currentPage-1)*pageSize, end=start+pageSize;
+    wrap.innerHTML = currentResults.slice(start,end).map(cardResultado).join('');
+    $$('#listResultados a[data-teams]').forEach(a=> a.onclick=()=>{
+      const s = (state.publishedSchedules||[]).find(x=>x.id===a.dataset.teams);
+      if(s) logEvent({ type:'contact', account:user.id, scheduleId:s.id, scheduleType:s.type, personName:s.ownerName, personRole:s.ownerRole, subjectUsed:(s.subjects||[]).join(' | ') });
+    });
+    const totalPages=Math.max(1, Math.ceil(currentResults.length/pageSize));
+    $('#pageInfo').textContent = `Página ${currentPage} de ${totalPages}`;
+    $('#paginacion').classList.remove('hidden');
+    $('#prevPage').classList.toggle('disabled', currentPage===1);
+    $('#nextPage').classList.toggle('disabled', currentPage===totalPages);
+  }
+
+  $('#formBuscar').addEventListener('submit', e=>{ e.preventDefault(); applySearch(); });
+  $('#btnLimpiar').onclick = ()=>{ $$('#formBuscar input[type="checkbox"]').forEach(c=> c.checked = (c.value!=='tutorial')); $('#fDia').value=''; $('#fHora').value=''; $('#fNombre').value=''; renderAlumno(container,user); };
+  $('#prevPage').onclick = ()=>{ if(currentPage>1){ currentPage--; renderResultsPage(); } };
+  $('#nextPage').onclick = ()=>{ const totalPages=Math.max(1, Math.ceil(currentResults.length/pageSize)); if(currentPage<totalPages){ currentPage++; renderResultsPage(); } };
+
+  applySearch();
+}
+
+/***************
+ * Admin: carga Excel/CSV de horarios y genera schedules.json (para subir al repo)
+ ***************/
+function renderAdmin(container){
+  container.innerHTML = `
+    <div class="grid lg:grid-cols-3 gap-6">
+      <section class="card p-6 lg:col-span-2">
+        <header class="flex items-start justify-between">
+          <h2 class="text-lg font-bold">Administrador</h2>
+          <div class="flex flex-wrap items-center gap-2">
+            <button class="btn btn-soft" id="btnReloadPublished">Recargar horarios publicados</button>
+            <button class="btn btn-soft" id="btnExportLogs">Exportar consultas (JSON)</button>
+          </div>
+        </header>
+
+        <div class="mt-6 border-t border-black/20 pt-4">
+          <h3 class="text-lg font-bold">Cargar horarios y publicar</h3>
+          <p class="text-sm text-slate-700 mt-1">
+            Carga un Excel/CSV de horarios. Luego descarga <code>schedules.json</code> y súbelo a tu repo en <code>data/schedules.json</code>.
+          </p>
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            <label class="btn btn-soft cursor-pointer">Cargar horarios (Excel .xlsx)
+              <input type="file" id="importSchedulesXlsx" class="hidden" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            </label>
+            <label class="btn btn-soft cursor-pointer">Cargar horarios (CSV)
+              <input type="file" id="importSchedulesCsv" class="hidden" accept=".csv,text/csv" />
+            </label>
+            <button class="btn btn-primary" id="btnDownloadSchedulesJson">Descargar schedules.json</button>
+            <button class="btn btn-soft" id="btnDownloadSchedulesTemplate">Plantilla horarios CSV</button>
+          </div>
+
+          <div class="mt-3"><div class="pill">Horarios en memoria: ${state.publishedSchedules.length}</div></div>
+
+          <div class="mt-6 border-t border-black/20 pt-4">
+            <h4 class="font-semibold">Datos cargados del repo</h4>
+            <div class="mt-2 grid grid-cols-2 gap-3 text-center">
+              ${cardStat('Materias', state.catalog.materias.length)}
+              ${cardStat('Horarios publicados', state.publishedSchedules.length)}
+              ${cardStat('Consultas (local)', state.logs.filter(l=>l.type==='search').length)}
+              ${cardStat('Contactos Teams (local)', state.logs.filter(l=>l.type==='contact').length)}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card p-6">
+        <h3 class="text-lg font-bold">Notas</h3>
+        <ul class="mt-3 text-sm text-slate-700 list-disc ml-5 space-y-1">
+          <li>GitHub Pages no permite escribir al repo desde el navegador.</li>
+          <li>El admin descarga <code>schedules.json</code> y lo sube manualmente.</li>
+          <li>Para filtros por hora, usa horas válidas <b>HH:MM</b>.</li>
+        </ul>
+      </section>
+    </div>`;
+
+  $('#btnReloadPublished').onclick = async ()=>{
+    await loadPublishedSchedules();
+    alert(`Recargado. Horarios publicados: ${state.publishedSchedules.length}`);
+    renderAdmin($('#screen'));
+  };
+  $('#btnExportLogs').onclick = ()=> downloadJson('consultas_logs.json', state.logs);
+
+  $('#btnDownloadSchedulesTemplate').onclick = ()=> downloadCsv('schedules.csv',
+    'owner_id,owner_role,owner_name,email,type,day,start,end,subjects,place\n' +
+    'AIBV791216,tutor,Dra. Elena Garcia,elena.garcia@uaemex.mx,asesoria,Miercoles,09:00,11:00,Calculo I|Algebra Lineal,Coordinacion de Tutoria\n' +
+    '1613343,mentor,Sofia Ramirez,sofia.ramirez@alumno.uaemex.mx,mentoria,Viernes,10:00,12:00,Fisica I|Calculo I,MS TEAMS\n'
+  );
+
+  $('#importSchedulesCsv').onchange = async (e)=>{
+    const file=e.target.files[0]; if(!file) return;
+    const txt=await file.text();
+    const rows=parseCSV(txt);
+    const mapped=rows.map(mapScheduleRow).filter(s=> s.ownerId && s.ownerRole && s.day);
+    state.publishedSchedules=mapped; save();
+    alert(`Horarios cargados: ${mapped.length}. Descarga schedules.json y súbelo al repo.`);
+    renderAdmin($('#screen'));
+  };
+
+  $('#importSchedulesXlsx').onchange = async (e)=>{
+    const file=e.target.files[0]; if(!file) return;
+    const data=await file.arrayBuffer();
+    const wb=XLSX.read(data,{type:'array'});
+    const ws=wb.Sheets[wb.SheetNames[0]];
+    const json=XLSX.utils.sheet_to_json(ws,{defval:''});
+
+    const normKey = (k)=>{
+      const nk = norm(String(k));
+      const map = {
+        'unidad de aprendizaje':'subjects','materia':'subjects','ua':'subjects','subjects':'subjects',
+        'asesor':'owner_name','tutor':'owner_name','mentor':'owner_name','owner_name':'owner_name','nombre':'owner_name',
+        'correo':'email','email':'email',
+        'dia':'day','día':'day','day':'day',
+        'inicio':'start','hora inicio':'start','start':'start',
+        'fin':'end','hora fin':'end','end':'end',
+        'lugar':'place','place':'place',
+        'tipo':'type','type':'type',
+        'rol':'owner_role','owner_role':'owner_role',
+        'owner_id':'owner_id','rfc':'owner_id','cuenta':'owner_id','id':'owner_id'
+      };
+      return map[nk] || nk;
+    };
+
+    const cleanedRows=json.map(r=>{
+      const o={};
+      Object.keys(r).forEach(k=> o[normKey(k)] = r[k]);
+      // si subjects viene como texto, lo dejamos
+      // inferir rol/tipo: si email contiene alumno.uaemex.mx => mentor/mentoria, si no => tutor/asesoria
+      const email=String(o.email||'').trim().toLowerCase();
+      if(!o.owner_role){
+        o.owner_role = email.includes('@alumno.uaemex.mx') ? 'mentor' : 'tutor';
+      }
+      if(!o.type){
+        o.type = (o.owner_role==='mentor') ? 'mentoria' : 'asesoria';
+      }
+      // si owner_id vacío, usar email
+      if(!o.owner_id){
+        o.owner_id = String(o.email||'').trim();
+      }
+      // subjects: si viene una sola materia, convertir a array pipe-friendly
+      if(o.subjects && !Array.isArray(o.subjects)){
+        o.subjects = String(o.subjects).split('|').map(x=>x.trim()).filter(Boolean);
+      }
+      return o;
+    });
+
+    const mapped=cleanedRows.map(mapScheduleRow).filter(s=> s.ownerName && s.day);
+    state.publishedSchedules=mapped; save();
+    alert(`Horarios cargados desde Excel: ${mapped.length}. Descarga schedules.json y súbelo al repo.`);
+    renderAdmin($('#screen'));
+  };
+
+  $('#btnDownloadSchedulesJson').onclick = ()=>{
+    if(!state.publishedSchedules.length) return alert('No hay horarios cargados.');
+    const out = state.publishedSchedules.map(s=>({
+      id: s.id,
+      owner_id: s.ownerId,
+      owner_role: s.ownerRole,
+      owner_name: s.ownerName,
+      email: s.email,
+      type: s.type,
+      day: s.day,
+      start: s.start,
+      end: s.end,
+      subjects: s.subjects,
+      place: s.place
+    }));
+    downloadJson('schedules.json', out);
+  };
+}
+
+/***************
+ * Informativo: tutor/mentor en este repositorio se deja como módulo (no publico)
+ ***************/
+function showLoginInfo(role){
+  const c=$('#screen');
+  c.innerHTML = `
+    <div class="max-w-2xl mx-auto card p-6">
+      <h2 class="text-xl font-bold">Módulo de captura (${role==='tutor'?'Tutor':'Mentor'})</h2>
+      <p class="text-sm text-slate-700 mt-2">
+        Este repositorio está configurado como <b>solo consulta</b> para alumnos. La captura de tutor/mentor se conserva para futuras fases,
+        pero <b>no publica</b> automáticamente en GitHub Pages.
+      </p>
+      <p class="text-sm text-slate-700 mt-2">
+        Para publicar horarios: entra como <b>Administrador</b>, carga el Excel/CSV y sube el archivo generado <code>data/schedules.json</code>.
+      </p>
+      <div class="mt-4 flex justify-end">
+        <button class="btn btn-primary" onclick="render()">Volver</button>
+      </div>
+    </div>`;
+}
+
+/***************
+ * UI helpers
+ ***************/
+function subjectPicker({mountId, selected=[], onChange, allowCustom=false}){
+  const mount=document.getElementById(mountId);
+  mount.innerHTML = `
+    <div class="relative">
+      <label class="block mb-1 text-sm font-medium">Unidades de aprendizaje</label>
+      <div class="flex flex-wrap items-center gap-1 mb-1" id="${mountId}_chips"></div>
+      <input id="${mountId}_input" class="input" placeholder="Escribe para filtrar y presiona Enter o elige de la lista" autocomplete="off" />
+      <ul id="${mountId}_menu" class="menu hidden"></ul>
+      <div id="${mountId}_hint" class="text-xs text-slate-600 mt-1"></div>
+    </div>`;
+  const input=$(`#${mountId}_input`), menu=$(`#${mountId}_menu`), chips=$(`#${mountId}_chips`), hint=$(`#${mountId}_hint`);
+  const src=()=> (state.catalog.materias||[]);
+  function renderHint(){ hint.textContent = src().length ? '' : 'No hay materias en el catálogo.'; }
+  function renderChips(){
+    chips.innerHTML = selected.map(v=>`<span class="chip">${escapeHtml(v)}<button data-x="${escapeHtml(v)}">×</button></span>`).join('');
+    chips.querySelectorAll('button[data-x]').forEach(b=> b.onclick=()=>{ selected=selected.filter(x=>x!==b.dataset.x); onChange([...selected]); renderChips(); });
+  }
+  function showMenu(list){
+    if(!list.length){ menu.classList.add('hidden'); return; }
+    menu.innerHTML = list.slice(0,50).map(v=>`<li data-v="${escapeHtml(v)}">${escapeHtml(v)}</li>`).join('');
+    menu.classList.remove('hidden');
+    menu.querySelectorAll('li').forEach(li=> li.onclick=()=>add(li.dataset.v));
+  }
+  function add(v){
+    if(!v||selected.includes(v)) return;
+    selected.push(v); onChange([...selected]); renderChips(); input.value=''; menu.classList.add('hidden'); input.focus();
+  }
+  function filter(q){ const nq=norm(q); showMenu(src().filter(m=>norm(m).includes(nq) && !selected.includes(m))); }
+  input.addEventListener('input', ()=>filter(input.value));
+  input.addEventListener('keydown', e=>{
+    if(e.key==='Enter'){
+      e.preventDefault();
+      const v=input.value.trim(); if(!v) return;
+      const exact=src().find(m=>norm(m)===norm(v));
+      if(!allowCustom && !exact) return alert('Selecciona del catálogo.');
+      add(exact||v);
+    }
+  });
+  document.addEventListener('click', e=>{ if(!mount.contains(e.target)) menu.classList.add('hidden'); });
+  renderChips(); renderHint();
+  return { get:()=>[...selected] };
+}
+function escapeHtml(s=''){ return s.replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
+function cardStat(label,value){ return `<div class="card p-4"><div class="text-2xl font-black">${value}</div><div class="text-xs text-slate-700">${label}</div></div>`; }
+
+function msTeamsLink(email){ return email ? `https://teams.microsoft.com/l/chat/0/0?users=${encodeURIComponent(email)}` : '#'; }
+function cardResultado(s){
+  const tipoTxt = s.type==='asesoria' ? 'Asesoría disciplinar' : (s.type==='mentoria' ? 'Mentoría' : 'Atención tutorial');
+  const materias = (s.subjects||[]).map(x=>`<span class="chip">${escapeHtml(x)}</span>`).join('') || '<span class="text-xs text-slate-600">—</span>';
+  const chatBtn = s.email
+    ? `<a class="btn btn-primary" data-teams="${s.id}" href="${msTeamsLink(s.email)}" target="_blank" rel="noopener">Contactar por Teams</a>`
+    : `<button class="btn btn-soft disabled" title="Sin correo">Contactar por Teams</button>`;
+  const place = s.place ? `<p class="text-xs text-slate-700 mt-1"><b>Lugar:</b> ${escapeHtml(s.place)}</p>` : '';
+  const timeLine = (s.start && s.end) ? `${escapeHtml(s.day)} • ${escapeHtml(s.start)} – ${escapeHtml(s.end)}` : `${escapeHtml(s.day)} • (Horario por confirmar)`;
+  return `
+    <article class="card p-4">
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <div class="pill mb-2">${tipoTxt}</div>
+          <h4 class="font-bold">${escapeHtml(s.ownerName||'(Sin nombre)')}</h4>
+          <p class="text-sm text-slate-700">${timeLine}</p>
+          ${place}
+          <div class="mt-2 flex flex-wrap gap-1">${materias}</div>
+        </div>
+        <div class="shrink-0">${chatBtn}</div>
+      </div>
+    </article>`;
+}
+
+function logEvent(e){ state.logs.push({id:uid('log'), tsISO: nowISO(), ...e}); save(); }
+
+function downloadCsv(name, content){
+  const blob=new Blob([content],{type:'text/csv;charset=utf-8'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name; a.click();
+}
+function downloadJson(name, obj){
+  const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name; a.click();
+}
+
+// Boot
+load();
+bootstrapData().then(render);
+</script>
+</body>
+</html>
