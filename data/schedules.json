@@ -1,0 +1,4337 @@
+[
+  {
+    "id": "sch_0001",
+    "owner_id": "seat@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBARRAN TRUJILLO SILVIA EDITH",
+    "email": "seat@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "INGENIERIA DE SOFTWARE I"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0002",
+    "owner_id": "seat@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBARRAN TRUJILLO SILVIA EDITH",
+    "email": "seat@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ADMINISTRACION DE RECURSOS INFORMATICOS"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0003",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "MATEMATICAS PARA INTELIGENCIA ARTIFICIAL"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0004",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO DE UNA VARIABLE"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0005",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO II"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0006",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO III"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0007",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "MATEMATICAS PARA INTELIGENCIA ARTIFICIAL"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0008",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO DE UNA VARIABLE"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0009",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO II"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0010",
+    "owner_id": "vaalbiterb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER BERNAL VLADIMIR ANGEL",
+    "email": "vaalbiterb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "08:30",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO III"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0011",
+    "owner_id": "aaalbiterr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER RODRIGUEZ ANGEL",
+    "email": "aaalbiterr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "GEOTECNIA II"
+    ],
+    "place": "Cubículo. 4to. Piso. Edificio \"C\""
+  },
+  {
+    "id": "sch_0012",
+    "owner_id": "aaalbiterr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER RODRIGUEZ ANGEL",
+    "email": "aaalbiterr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "INTEGRATIVA PROFESIONAL"
+    ],
+    "place": "Cubículo. 4to. Piso. Edificio \"C\""
+  },
+  {
+    "id": "sch_0013",
+    "owner_id": "aaalbiterr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER RODRIGUEZ ANGEL",
+    "email": "aaalbiterr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "GEOLOGIA"
+    ],
+    "place": "Cubículo. 4to. Piso. Edificio \"C\""
+  },
+  {
+    "id": "sch_0014",
+    "owner_id": "aaalbiterr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER RODRIGUEZ ANGEL",
+    "email": "aaalbiterr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "GEOTECNIA II"
+    ],
+    "place": "Cubículo. 4to. Piso. Edificio \"C\""
+  },
+  {
+    "id": "sch_0015",
+    "owner_id": "aaalbiterr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER RODRIGUEZ ANGEL",
+    "email": "aaalbiterr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "INTEGRATIVA PROFESIONAL"
+    ],
+    "place": "Cubículo. 4to. Piso. Edificio \"C\""
+  },
+  {
+    "id": "sch_0016",
+    "owner_id": "aaalbiterr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALBITER RODRIGUEZ ANGEL",
+    "email": "aaalbiterr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "GEOLOGIA"
+    ],
+    "place": "Cubículo. 4to. Piso. Edificio \"C\""
+  },
+  {
+    "id": "sch_0017",
+    "owner_id": "aealcantarav@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALCANTARA VALLADOLID ANA ELISA",
+    "email": "aealcantarav@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "EPISTEMOLOGIA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0018",
+    "owner_id": "calvarezb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALVAREZ BASTIDA CAROLINA",
+    "email": "calvarezb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "SUSTENTABILIDAD E IMPACTO AMBIENTAL"
+    ],
+    "place": "Subdirección Administrativa"
+  },
+  {
+    "id": "sch_0019",
+    "owner_id": "calvarezb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALVAREZ BASTIDA CAROLINA",
+    "email": "calvarezb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Subdirección Administrativa"
+  },
+  {
+    "id": "sch_0020",
+    "owner_id": "calvarezb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALVAREZ BASTIDA CAROLINA",
+    "email": "calvarezb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "SUSTENTABILIDAD E IMPACTO AMBIENTAL"
+    ],
+    "place": "Subdirección Administrativa"
+  },
+  {
+    "id": "sch_0021",
+    "owner_id": "calvarezb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ALVAREZ BASTIDA CAROLINA",
+    "email": "calvarezb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Subdirección Administrativa"
+  },
+  {
+    "id": "sch_0022",
+    "owner_id": "aarzatet@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ARZATE TREJO ALVARO",
+    "email": "aarzatet@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "17:00",
+    "end": "19:00",
+    "subjects": [
+      "MATEMATICAS DISCRETAS"
+    ],
+    "place": "Salón 408-C"
+  },
+  {
+    "id": "sch_0023",
+    "owner_id": "aarzatet@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ARZATE TREJO ALVARO",
+    "email": "aarzatet@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "17:00",
+    "end": "19:00",
+    "subjects": [
+      "PROGRAMACION I"
+    ],
+    "place": "Salón 408-C"
+  },
+  {
+    "id": "sch_0024",
+    "owner_id": "aarzatet@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ARZATE TREJO ALVARO",
+    "email": "aarzatet@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "17:00",
+    "end": "19:00",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "Salón 408-C"
+  },
+  {
+    "id": "sch_0025",
+    "owner_id": "aarzatet@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ARZATE TREJO ALVARO",
+    "email": "aarzatet@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "17:00",
+    "end": "19:00",
+    "subjects": [
+      "MATEMATICAS DISCRETAS"
+    ],
+    "place": "Salón 408-C"
+  },
+  {
+    "id": "sch_0026",
+    "owner_id": "aarzatet@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ARZATE TREJO ALVARO",
+    "email": "aarzatet@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "17:00",
+    "end": "19:00",
+    "subjects": [
+      "PROGRAMACION I"
+    ],
+    "place": "Salón 408-C"
+  },
+  {
+    "id": "sch_0027",
+    "owner_id": "aarzatet@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ARZATE TREJO ALVARO",
+    "email": "aarzatet@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "17:00",
+    "end": "19:00",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "Salón 408-C"
+  },
+  {
+    "id": "sch_0028",
+    "owner_id": "dmavilesz@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "AVILES ZUÑIGA DOLORES MONICA",
+    "email": "dmavilesz@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "TECNOLOGIAS COMPUTACIONALES I"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0029",
+    "owner_id": "dmavilesz@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "AVILES ZUÑIGA DOLORES MONICA",
+    "email": "dmavilesz@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "TECNOLOGIAS COMPUTACIONALES II"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0030",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "ESTRUCTURAS DE MAMPOSTERIA"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0031",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "ALGEBRA LINEAL"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0032",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "ALGEBRA SUPERIOR"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0033",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "PROBABILIDAD Y ESTADISTICA"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0034",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "ESTRUCTURAS DE MAMPOSTERIA"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0035",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "ALGEBRA LINEAL"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0036",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "ALGEBRA SUPERIOR"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0037",
+    "owner_id": "fbecerrilv@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "BECERRIL VILCHIS FRANCISCO",
+    "email": "fbecerrilv@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "PROBABILIDAD Y ESTADISTICA"
+    ],
+    "place": "Cubículo 21, Edificio A"
+  },
+  {
+    "id": "sch_0038",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "CALCULO MULTIVARIABLE"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0039",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "CALCULO III"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0040",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "ECUACIONES DIFERENCIALES"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0041",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "TEORIA ELECTROMAGNETICA I"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0042",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "CALCULO MULTIVARIABLE"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0043",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "CALCULO III"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0044",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "ECUACIONES DIFERENCIALES"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0045",
+    "owner_id": "jcaballerov@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CABALLERO VIÑAS JOSE",
+    "email": "jcaballerov@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "12:00",
+    "subjects": [
+      "TEORIA ELECTROMAGNETICA I"
+    ],
+    "place": "Propedéuticas"
+  },
+  {
+    "id": "sch_0046",
+    "owner_id": "jacarreonr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CARREON RODRIGUEZ JOSE ALBERTO",
+    "email": "jacarreonr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "ETICA DE LA CONFIANZA COMO RESPONSABILIDAD"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0047",
+    "owner_id": "jacarreonr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CARREON RODRIGUEZ JOSE ALBERTO",
+    "email": "jacarreonr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "EL INGENIERO Y SU ENTORNO SOCIOECONOMICO"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0048",
+    "owner_id": "jacarreonr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CARREON RODRIGUEZ JOSE ALBERTO",
+    "email": "jacarreonr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "ETICA DE LA CONFIANZA COMO RESPONSABILIDAD"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0049",
+    "owner_id": "jacarreonr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CARREON RODRIGUEZ JOSE ALBERTO",
+    "email": "jacarreonr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "EL INGENIERO Y SU ENTORNO SOCIOECONOMICO"
+    ],
+    "place": "Coordinación de Tutoría"
+  },
+  {
+    "id": "sch_0050",
+    "owner_id": "ccastrom190@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CASTRO MARTINEZ CHRISTIAN",
+    "email": "ccastrom190@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "ELECTRONICA DE POTENCIA II"
+    ],
+    "place": "Frente a control escolar"
+  },
+  {
+    "id": "sch_0051",
+    "owner_id": "ccastrom190@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CASTRO MARTINEZ CHRISTIAN",
+    "email": "ccastrom190@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "METODOS NUMERICOS"
+    ],
+    "place": "Frente a control escolar"
+  },
+  {
+    "id": "sch_0052",
+    "owner_id": "ccastrom190@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CASTRO MARTINEZ CHRISTIAN",
+    "email": "ccastrom190@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "CONTROL CLASICO"
+    ],
+    "place": "Frente a control escolar"
+  },
+  {
+    "id": "sch_0053",
+    "owner_id": "ccastrom190@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CASTRO MARTINEZ CHRISTIAN",
+    "email": "ccastrom190@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "DINAMICA DE SISTEMAS"
+    ],
+    "place": "Frente a control escolar"
+  },
+  {
+    "id": "sch_0054",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "PARADIGMAS DE PROGRAMACION"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0055",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "DISTRIBUTED SYSTEMS"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0056",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "PROGRAMACION I"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0057",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "INGENIERIA DE SOFTWARE II"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0058",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "PARADIGMAS DE PROGRAMACION I"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0059",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "DISEÑO DE SISTEMAS"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0060",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "PARADIGMAS DE PROGRAMACION"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0061",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "DISTRIBUTED SYSTEMS"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0062",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "PROGRAMACION I"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0063",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "INGENIERIA DE SOFTWARE II"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0064",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "PARADIGMAS DE PROGRAMACION I"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0065",
+    "owner_id": "fchavezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CHAVEZ CASTAÑEDA FRANCISCO IGNACIO",
+    "email": "fchavezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "DISEÑO DE SISTEMAS"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0066",
+    "owner_id": "nacolinm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "COLIN MERCADO NOE ARMANDO",
+    "email": "nacolinm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "GEOMETRIA ANALITICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0067",
+    "owner_id": "macontrerasf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CONTRERAS FLORES MARIA DE LOS ANGELES",
+    "email": "macontrerasf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "12:00",
+    "subjects": [
+      "METODOS NUMERICOS"
+    ],
+    "place": "Edificio A, cubículo 10"
+  },
+  {
+    "id": "sch_0068",
+    "owner_id": "macontrerasf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CONTRERAS FLORES MARIA DE LOS ANGELES",
+    "email": "macontrerasf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "12:00",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "Edificio A, cubículo 10"
+  },
+  {
+    "id": "sch_0069",
+    "owner_id": "macontrerasf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CONTRERAS FLORES MARIA DE LOS ANGELES",
+    "email": "macontrerasf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "11:00",
+    "end": "12:00",
+    "subjects": [
+      "METODOS NUMERICOS"
+    ],
+    "place": "Edificio A, cubículo 10"
+  },
+  {
+    "id": "sch_0070",
+    "owner_id": "macontrerasf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "CONTRERAS FLORES MARIA DE LOS ANGELES",
+    "email": "macontrerasf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "11:00",
+    "end": "12:00",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "Edificio A, cubículo 10"
+  },
+  {
+    "id": "sch_0071",
+    "owner_id": "mdavilav@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DAVILA VILCHIS JUANA MARIEL",
+    "email": "mdavilav@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "15:00",
+    "end": "16:00",
+    "subjects": [
+      "TERMODINAMICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0072",
+    "owner_id": "mdavilav@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DAVILA VILCHIS JUANA MARIEL",
+    "email": "mdavilav@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "15:00",
+    "end": "16:00",
+    "subjects": [
+      "TURBOMAQUINARIA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0073",
+    "owner_id": "mdavilav@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DAVILA VILCHIS JUANA MARIEL",
+    "email": "mdavilav@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "15:00",
+    "end": "16:00",
+    "subjects": [
+      "TERMODINAMICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0074",
+    "owner_id": "mdavilav@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DAVILA VILCHIS JUANA MARIEL",
+    "email": "mdavilav@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "15:00",
+    "end": "16:00",
+    "subjects": [
+      "TURBOMAQUINARIA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0075",
+    "owner_id": "david.delgado@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DELGADO HERNANDEZ DAVID JOAQUIN",
+    "email": "david.delgado@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "EXPERIMENTAL DESIGN"
+    ],
+    "place": "Cubículo 17, Edificio G, ext. 1234"
+  },
+  {
+    "id": "sch_0076",
+    "owner_id": "david.delgado@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DELGADO HERNANDEZ DAVID JOAQUIN",
+    "email": "david.delgado@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "HABILIDADES DIRECTIVAS"
+    ],
+    "place": "Cubículo 17, Edificio G, ext. 1234"
+  },
+  {
+    "id": "sch_0077",
+    "owner_id": "david.delgado@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DELGADO HERNANDEZ DAVID JOAQUIN",
+    "email": "david.delgado@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "ADMINISTRACION DE LA CONSTRUCCION"
+    ],
+    "place": "Cubículo 17, Edificio G, ext. 1234"
+  },
+  {
+    "id": "sch_0078",
+    "owner_id": "sadiazc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DIAZ CAMACHO SERGIO ALEJANDRO",
+    "email": "sadiazc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO I"
+    ],
+    "place": "Cubículo 3. 1er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0079",
+    "owner_id": "sadiazc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DIAZ CAMACHO SERGIO ALEJANDRO",
+    "email": "sadiazc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "09:00",
+    "end": "10:00",
+    "subjects": [
+      "CALCULO I"
+    ],
+    "place": "Cubículo 3. 1er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0080",
+    "owner_id": "radiazm001@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DIAZ MENDIETA RAQUEL ALEJANDRA",
+    "email": "radiazm001@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "METODOS ESTADISTICOS"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0081",
+    "owner_id": "radiazm001@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DIAZ MENDIETA RAQUEL ALEJANDRA",
+    "email": "radiazm001@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ECUACIONES DIFERENCIALES"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0082",
+    "owner_id": "radiazm001@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DIAZ MENDIETA RAQUEL ALEJANDRA",
+    "email": "radiazm001@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ESTATICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0083",
+    "owner_id": "radiazm001@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DIAZ MENDIETA RAQUEL ALEJANDRA",
+    "email": "radiazm001@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "MECANICA DEL MEDIO CONTINUO"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0084",
+    "owner_id": "vdomingueza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "DOMINGUEZ ALAMILLA VERONICA",
+    "email": "vdomingueza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "ALGEBRA SUPERIOR"
+    ],
+    "place": "Coordinación de Planeación. Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0085",
+    "owner_id": "lkespinosamh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESPINOSA DE LOS MONTEROS HEREDIA LILIAN KARINA",
+    "email": "lkespinosamh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "MATEMATICAS DISCRETAS"
+    ],
+    "place": "Agendar cita presencial, contactar por MS TEAMS"
+  },
+  {
+    "id": "sch_0086",
+    "owner_id": "lkespinosamh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESPINOSA DE LOS MONTEROS HEREDIA LILIAN KARINA",
+    "email": "lkespinosamh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "ENSAMBLADORES"
+    ],
+    "place": "Agendar cita presencial, contactar por MS TEAMS"
+  },
+  {
+    "id": "sch_0087",
+    "owner_id": "lkespinosamh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESPINOSA DE LOS MONTEROS HEREDIA LILIAN KARINA",
+    "email": "lkespinosamh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "Agendar cita presencial, contactar por MS TEAMS"
+  },
+  {
+    "id": "sch_0088",
+    "owner_id": "lkespinosamh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESPINOSA DE LOS MONTEROS HEREDIA LILIAN KARINA",
+    "email": "lkespinosamh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "MATEMATICAS DISCRETAS"
+    ],
+    "place": "Agendar cita presencial, contactar por MS TEAMS"
+  },
+  {
+    "id": "sch_0089",
+    "owner_id": "lkespinosamh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESPINOSA DE LOS MONTEROS HEREDIA LILIAN KARINA",
+    "email": "lkespinosamh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "ENSAMBLADORES"
+    ],
+    "place": "Agendar cita presencial, contactar por MS TEAMS"
+  },
+  {
+    "id": "sch_0090",
+    "owner_id": "lkespinosamh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESPINOSA DE LOS MONTEROS HEREDIA LILIAN KARINA",
+    "email": "lkespinosamh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "Agendar cita presencial, contactar por MS TEAMS"
+  },
+  {
+    "id": "sch_0091",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "EPISTEMOLOGIA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0092",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "ETICA PROFESIONAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0093",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "ETICA EN INGENIERIA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0094",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "PSICOLOGIA INDUSTRIAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0095",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "12:00",
+    "end": "13:00",
+    "subjects": [
+      "EPISTEMOLOGIA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0096",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "12:00",
+    "end": "13:00",
+    "subjects": [
+      "ETICA PROFESIONAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0097",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "12:00",
+    "end": "13:00",
+    "subjects": [
+      "ETICA EN INGENIERIA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0098",
+    "owner_id": "ldestradah@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ESTRADA HERRERA LUDIVINA DEL RAYO",
+    "email": "ldestradah@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "12:00",
+    "end": "13:00",
+    "subjects": [
+      "PSICOLOGIA INDUSTRIAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0099",
+    "owner_id": "afabilanu@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FABILA NUÑEZ ARELI",
+    "email": "afabilanu@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0100",
+    "owner_id": "afabilanu@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FABILA NUÑEZ ARELI",
+    "email": "afabilanu@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "17:30",
+    "end": "19:30",
+    "subjects": [
+      "PROGRAMACION BASICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0101",
+    "owner_id": "mgfonsecam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FONSECA MONTES DE OCA REYNA MARIA GUADALUPE",
+    "email": "mgfonsecam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "15:00",
+    "end": "16:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0102",
+    "owner_id": "mgfonsecam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FONSECA MONTES DE OCA REYNA MARIA GUADALUPE",
+    "email": "mgfonsecam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "15:00",
+    "end": "16:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0103",
+    "owner_id": "rmfuentesr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FUENTES RIVAS ROSA MARIA",
+    "email": "rmfuentesr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "TRATAMIENTO DE AGUA RESIDUAL MUNICIPAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0104",
+    "owner_id": "rmfuentesr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FUENTES RIVAS ROSA MARIA",
+    "email": "rmfuentesr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0105",
+    "owner_id": "rmfuentesr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FUENTES RIVAS ROSA MARIA",
+    "email": "rmfuentesr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "12:00",
+    "subjects": [
+      "TRATAMIENTO DE AGUA RESIDUAL MUNICIPAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0106",
+    "owner_id": "rmfuentesr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "FUENTES RIVAS ROSA MARIA",
+    "email": "rmfuentesr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "12:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0107",
+    "owner_id": "jsgallegosm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GALLEGOS MOLINA JORGE SAUL",
+    "email": "jsgallegosm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "12:00",
+    "end": "13:00",
+    "subjects": [
+      "ADMINISTRACION DE LA PRODUCCION"
+    ],
+    "place": "Coordinación de Mecánica"
+  },
+  {
+    "id": "sch_0108",
+    "owner_id": "jsgallegosm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GALLEGOS MOLINA JORGE SAUL",
+    "email": "jsgallegosm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "12:00",
+    "end": "13:00",
+    "subjects": [
+      "ADMINISTRACION DE LA PRODUCCION"
+    ],
+    "place": "Coordinación de Mecánica"
+  },
+  {
+    "id": "sch_0109",
+    "owner_id": "dgarciap@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GARCIA PULIDO DAURY",
+    "email": "dgarciap@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "10:00",
+    "end": "13:00",
+    "subjects": [
+      "SISTEMAS DE TRATAMIENTO"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0110",
+    "owner_id": "grodriguezca@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUADALUPE RODRIGUEZ CAMACHO",
+    "email": "grodriguezca@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "EL INGENIERO Y SU ENTORNO SOCIOECONOMICO"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0111",
+    "owner_id": "grodriguezca@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUADALUPE RODRIGUEZ CAMACHO",
+    "email": "grodriguezca@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ARQUITECTURA DE COMPUTADORAS"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0112",
+    "owner_id": "grodriguezca@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUADALUPE RODRIGUEZ CAMACHO",
+    "email": "grodriguezca@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "PRACTICA PROFESIONAL"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0113",
+    "owner_id": "jmguadarramaf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUADARRAMA FONSECA JUAN MANUEL",
+    "email": "jmguadarramaf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "CALCULO I"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0114",
+    "owner_id": "jmguadarramaf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUADARRAMA FONSECA JUAN MANUEL",
+    "email": "jmguadarramaf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "GEOMETRIA ANALITICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0115",
+    "owner_id": "dgutierrezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUTIERREZ CALZADA DAVID",
+    "email": "dgutierrezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ANALISIS ESTRUCTURAL II"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0116",
+    "owner_id": "dgutierrezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUTIERREZ CALZADA DAVID",
+    "email": "dgutierrezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "CALCULO II"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0117",
+    "owner_id": "dgutierrezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUTIERREZ CALZADA DAVID",
+    "email": "dgutierrezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ECUACIONES DIFERENCIALES"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0118",
+    "owner_id": "dgutierrezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "GUTIERREZ CALZADA DAVID",
+    "email": "dgutierrezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "GEOMETRIA ANALITICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0119",
+    "owner_id": "rhp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "HERNANDEZ PEREZ RUTH",
+    "email": "rhp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "PROYECTO DE INVESTIGACION"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0120",
+    "owner_id": "rhp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "HERNANDEZ PEREZ RUTH",
+    "email": "rhp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "EXPRESION ORAL Y ESCRITA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0121",
+    "owner_id": "rhp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "HERNANDEZ PEREZ RUTH",
+    "email": "rhp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "CIENCIA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0122",
+    "owner_id": "rhp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "HERNANDEZ PEREZ RUTH",
+    "email": "rhp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "TECNOLOGIA Y SOCIEDAD"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0123",
+    "owner_id": "rhp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "HERNANDEZ PEREZ RUTH",
+    "email": "rhp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "CULTURA Y COMUNICACION"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0124",
+    "owner_id": "mcjimenezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "JIMENEZ MOLEON MARIA DEL CARMEN",
+    "email": "mcjimenezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "08:00",
+    "end": "10:00",
+    "subjects": [
+      "SUSTENTABILIDAD E IMPACTO AMBIENTAL"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0125",
+    "owner_id": "jjuarezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "JUAREZ MICHUA JOANNA",
+    "email": "jjuarezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "14:00",
+    "subjects": [
+      "MECANICA DE FLUIDOS"
+    ],
+    "place": "Cubículo 9. Taller de Manufacturas"
+  },
+  {
+    "id": "sch_0126",
+    "owner_id": "jjuarezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "JUAREZ MICHUA JOANNA",
+    "email": "jjuarezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "14:00",
+    "subjects": [
+      "CONTROL AMBIENTAL"
+    ],
+    "place": "Cubículo 9. Taller de Manufacturas"
+  },
+  {
+    "id": "sch_0127",
+    "owner_id": "jjuarezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "JUAREZ MICHUA JOANNA",
+    "email": "jjuarezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "14:00",
+    "subjects": [
+      "TERMOQUIMICA"
+    ],
+    "place": "Cubículo 9. Taller de Manufacturas"
+  },
+  {
+    "id": "sch_0128",
+    "owner_id": "jjuarezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "JUAREZ MICHUA JOANNA",
+    "email": "jjuarezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "14:00",
+    "subjects": [
+      "TURBOMAQUINARIA"
+    ],
+    "place": "Cubículo 9. Taller de Manufacturas"
+  },
+  {
+    "id": "sch_0129",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "ALGEBRA SUPERIOR Y GEOMETRIA ANALITICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0130",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "ALGEBRA LINEAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0131",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "CALCULO II"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0132",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "CALCULO III"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0133",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "ALGEBRA SUPERIOR Y GEOMETRIA ANALITICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0134",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "ALGEBRA LINEAL"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0135",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "CALCULO II"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0136",
+    "owner_id": "mflopeza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LOPEZ ALBARRAN MARIA FERNANDA",
+    "email": "mflopeza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "CALCULO III"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0137",
+    "owner_id": "mluceroc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LUCERO CHAVEZ MERCEDES",
+    "email": "mluceroc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0138",
+    "owner_id": "mluceroc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "LUCERO CHAVEZ MERCEDES",
+    "email": "mluceroc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0139",
+    "owner_id": "lemanjarrezg@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MANJARREZ GARDUÑO LORENA ELIZABETH",
+    "email": "lemanjarrezg@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ANALISIS ESTRUCTURAL I"
+    ],
+    "place": "Subdirección Académica"
+  },
+  {
+    "id": "sch_0140",
+    "owner_id": "lemanjarrezg@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MANJARREZ GARDUÑO LORENA ELIZABETH",
+    "email": "lemanjarrezg@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "INSTALACIONES"
+    ],
+    "place": "Subdirección Académica"
+  },
+  {
+    "id": "sch_0141",
+    "owner_id": "lemanjarrezg@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MANJARREZ GARDUÑO LORENA ELIZABETH",
+    "email": "lemanjarrezg@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ECUACIONES DIFERENCIALES"
+    ],
+    "place": "Subdirección Académica"
+  },
+  {
+    "id": "sch_0142",
+    "owner_id": "lemanjarrezg@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MANJARREZ GARDUÑO LORENA ELIZABETH",
+    "email": "lemanjarrezg@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ANALISIS ESTRUCTURAL I"
+    ],
+    "place": "Subdirección Académica"
+  },
+  {
+    "id": "sch_0143",
+    "owner_id": "lemanjarrezg@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MANJARREZ GARDUÑO LORENA ELIZABETH",
+    "email": "lemanjarrezg@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "INSTALACIONES"
+    ],
+    "place": "Subdirección Académica"
+  },
+  {
+    "id": "sch_0144",
+    "owner_id": "lemanjarrezg@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MANJARREZ GARDUÑO LORENA ELIZABETH",
+    "email": "lemanjarrezg@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ECUACIONES DIFERENCIALES"
+    ],
+    "place": "Subdirección Académica"
+  },
+  {
+    "id": "sch_0145",
+    "owner_id": "elmillanl@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MILLAN LAGUNAS ERICKA LIZETH",
+    "email": "elmillanl@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "10:15",
+    "end": "12:15",
+    "subjects": [
+      "SISTEMAS DE TRATAMIENTO"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0146",
+    "owner_id": "msanchezpo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "Miriam  Sánchez Pozos",
+    "email": "msanchezpo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "MATERIALES POLIMERICOS"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0147",
+    "owner_id": "msanchezpo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "Miriam  Sánchez Pozos",
+    "email": "msanchezpo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "TECNOLOGIAS PARA EL RECICLADO DE PLASTICOS"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0148",
+    "owner_id": "vmmontanos@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MONTAÑO SERRANO VICTOR MANUEL",
+    "email": "vmmontanos@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ROBOTICA"
+    ],
+    "place": "Laboratorio de Sistemas Dinámicos, Edificio D"
+  },
+  {
+    "id": "sch_0149",
+    "owner_id": "vmmontanos@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MONTAÑO SERRANO VICTOR MANUEL",
+    "email": "vmmontanos@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TECNOLOGIAS EMERGENTES"
+    ],
+    "place": "Laboratorio de Sistemas Dinámicos, Edificio D"
+  },
+  {
+    "id": "sch_0150",
+    "owner_id": "vmmontanos@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MONTAÑO SERRANO VICTOR MANUEL",
+    "email": "vmmontanos@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "AUTOMATIZACION AVANZADA"
+    ],
+    "place": "Laboratorio de Sistemas Dinámicos, Edificio D"
+  },
+  {
+    "id": "sch_0151",
+    "owner_id": "vmmontanos@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MONTAÑO SERRANO VICTOR MANUEL",
+    "email": "vmmontanos@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ROBOTICA"
+    ],
+    "place": "Laboratorio de Sistemas Dinámicos, Edificio D"
+  },
+  {
+    "id": "sch_0152",
+    "owner_id": "vmmontanos@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MONTAÑO SERRANO VICTOR MANUEL",
+    "email": "vmmontanos@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TECNOLOGIAS EMERGENTES"
+    ],
+    "place": "Laboratorio de Sistemas Dinámicos, Edificio D"
+  },
+  {
+    "id": "sch_0153",
+    "owner_id": "vmmontanos@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MONTAÑO SERRANO VICTOR MANUEL",
+    "email": "vmmontanos@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "AUTOMATIZACION AVANZADA"
+    ],
+    "place": "Laboratorio de Sistemas Dinámicos, Edificio D"
+  },
+  {
+    "id": "sch_0154",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0155",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "QUIMICA ORGANICA Y ORGANOMETALICA"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0156",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TERMOQUIMICA"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0157",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TEMAS SELECTOS DE SISTEMAS EFICIENTES DE COMBUSTION"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0158",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0159",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "QUIMICA ORGANICA Y ORGANOMETALICA"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0160",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TERMOQUIMICA"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0161",
+    "owner_id": "vmoralesm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORALES MERCADO VIDAL",
+    "email": "vmoralesm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TEMAS SELECTOS DE SISTEMAS EFICIENTES DE COMBUSTION"
+    ],
+    "place": "MS TEAMS. Tercer piso del Edificio \"G\"."
+  },
+  {
+    "id": "sch_0162",
+    "owner_id": "mgmorans@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORAN SOLANO MARIA GUADALUPE",
+    "email": "mgmorans@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "CONTROL DE PROCESOS INDUSTRIALES"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0163",
+    "owner_id": "mgmorans@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORAN SOLANO MARIA GUADALUPE",
+    "email": "mgmorans@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "INSTRUMENTACION"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0164",
+    "owner_id": "mgmorans@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORAN SOLANO MARIA GUADALUPE",
+    "email": "mgmorans@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "METROLOGIA"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0165",
+    "owner_id": "mgmorans@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORAN SOLANO MARIA GUADALUPE",
+    "email": "mgmorans@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "PROYECTOS DE INSTRUMENTACION"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0166",
+    "owner_id": "jmorenoj@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MORENO JIMENEZ JUDITH",
+    "email": "jmorenoj@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "MICROCONTROLADORES"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0167",
+    "owner_id": "ncmunguiac@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MUNGUIA CEDILLO NATALIA CECILIA",
+    "email": "ncmunguiac@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "COMUNICACION Y RELACIONES HUMANAS"
+    ],
+    "place": "Salón 303"
+  },
+  {
+    "id": "sch_0168",
+    "owner_id": "ncmunguiac@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MUNGUIA CEDILLO NATALIA CECILIA",
+    "email": "ncmunguiac@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "GESTION DE PROYECTOS DE INVESTIGACION"
+    ],
+    "place": "Salón 303"
+  },
+  {
+    "id": "sch_0169",
+    "owner_id": "ncmunguiac@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MUNGUIA CEDILLO NATALIA CECILIA",
+    "email": "ncmunguiac@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "COMUNICACION Y RELACIONES HUMANAS"
+    ],
+    "place": "Salón 303"
+  },
+  {
+    "id": "sch_0170",
+    "owner_id": "ncmunguiac@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "MUNGUIA CEDILLO NATALIA CECILIA",
+    "email": "ncmunguiac@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "11:00",
+    "end": "17:00",
+    "subjects": [
+      "GESTION DE PROYECTOS DE INVESTIGACION"
+    ],
+    "place": "Salón 303"
+  },
+  {
+    "id": "sch_0171",
+    "owner_id": "mlnajeral@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NAJERA LOPEZ MA DE LOURDES",
+    "email": "mlnajeral@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "PROBABILIDAD Y ESTADISTICA"
+    ],
+    "place": "CIMS, Edificio E"
+  },
+  {
+    "id": "sch_0172",
+    "owner_id": "mlnajeral@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NAJERA LOPEZ MA DE LOURDES",
+    "email": "mlnajeral@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "PAVIMENTOS"
+    ],
+    "place": "CIMS, Edificio E"
+  },
+  {
+    "id": "sch_0173",
+    "owner_id": "mlnajeral@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NAJERA LOPEZ MA DE LOURDES",
+    "email": "mlnajeral@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "METODOS NUMERICOS"
+    ],
+    "place": "CIMS, Edificio E"
+  },
+  {
+    "id": "sch_0174",
+    "owner_id": "jlnunezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NUÑEZ MEJIA JOSE LUIS",
+    "email": "jlnunezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "CALCULO II"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0175",
+    "owner_id": "jlnunezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NUÑEZ MEJIA JOSE LUIS",
+    "email": "jlnunezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "GEOMETRIA ANALITICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0176",
+    "owner_id": "jlnunezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NUÑEZ MEJIA JOSE LUIS",
+    "email": "jlnunezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "DISEÑO DE TRANSMISIONES"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0177",
+    "owner_id": "jlnunezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NUÑEZ MEJIA JOSE LUIS",
+    "email": "jlnunezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "INFORMES TECNICOS EN INGENIERIA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0178",
+    "owner_id": "jlnunezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "NUÑEZ MEJIA JOSE LUIS",
+    "email": "jlnunezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "INTEGRATIVA PROFESIONAL"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0179",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ESTRUCTURAS DE DATOS"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0180",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "PROGRAMACION II"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0181",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA DE SOFTWARE I"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0182",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ENSAMBLADORES"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0183",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TECNOLOGIAS COMPUTACIONALES II"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0184",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ESTRUCTURAS DE DATOS"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0185",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "PROGRAMACION II"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0186",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA DE SOFTWARE I"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0187",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "ENSAMBLADORES"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0188",
+    "owner_id": "borozcog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "OROZCO GARDUÑO BEATRIZ",
+    "email": "borozcog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "TECNOLOGIAS COMPUTACIONALES II"
+    ],
+    "place": "Coordinación de Computación. Edificio \"C\""
+  },
+  {
+    "id": "sch_0189",
+    "owner_id": "aortizp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ORTIZ PEREZ ALEJANDRO",
+    "email": "aortizp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "GEOMETRIA ANALITICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0190",
+    "owner_id": "aortizp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ORTIZ PEREZ ALEJANDRO",
+    "email": "aortizp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ESTATICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0191",
+    "owner_id": "aortizp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ORTIZ PEREZ ALEJANDRO",
+    "email": "aortizp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "DIBUJO MECANICO I"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0192",
+    "owner_id": "aortizp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ORTIZ PEREZ ALEJANDRO",
+    "email": "aortizp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "AHORRO DE ENERGIA ELECTRICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0193",
+    "owner_id": "bperezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ CLAVEL BENJAMIN",
+    "email": "bperezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:30",
+    "end": "11:30",
+    "subjects": [
+      "CIRCUITOS ELECTRICOS Y ELECTRONICOS"
+    ],
+    "place": "Salones C304 o C405, Edificio I / Teams"
+  },
+  {
+    "id": "sch_0194",
+    "owner_id": "bperezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ CLAVEL BENJAMIN",
+    "email": "bperezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:30",
+    "end": "11:30",
+    "subjects": [
+      "SISTEMAS EMBEBIDOS"
+    ],
+    "place": "Salones C304 o C405, Edificio I / Teams"
+  },
+  {
+    "id": "sch_0195",
+    "owner_id": "bperezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ CLAVEL BENJAMIN",
+    "email": "bperezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:30",
+    "end": "11:30",
+    "subjects": [
+      "ELECTRONICA I"
+    ],
+    "place": "Salones C304 o C405, Edificio I / Teams"
+  },
+  {
+    "id": "sch_0196",
+    "owner_id": "bperezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ CLAVEL BENJAMIN",
+    "email": "bperezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:30",
+    "end": "11:30",
+    "subjects": [
+      "CIRCUITOS ELECTRICOS Y ELECTRONICOS"
+    ],
+    "place": "Salones C304 o C405, Edificio I / Teams"
+  },
+  {
+    "id": "sch_0197",
+    "owner_id": "bperezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ CLAVEL BENJAMIN",
+    "email": "bperezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:30",
+    "end": "11:30",
+    "subjects": [
+      "SISTEMAS EMBEBIDOS"
+    ],
+    "place": "Salones C304 o C405, Edificio I / Teams"
+  },
+  {
+    "id": "sch_0198",
+    "owner_id": "bperezc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ CLAVEL BENJAMIN",
+    "email": "bperezc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "09:30",
+    "end": "11:30",
+    "subjects": [
+      "ELECTRONICA I"
+    ],
+    "place": "Salones C304 o C405, Edificio I / Teams"
+  },
+  {
+    "id": "sch_0199",
+    "owner_id": "jsperezf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ FAJARDO JOSE SATURNINO",
+    "email": "jsperezf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:00",
+    "end": "12:00",
+    "subjects": [
+      "DINAMICA"
+    ],
+    "place": "Edificio \"G\", último piso"
+  },
+  {
+    "id": "sch_0200",
+    "owner_id": "jsperezf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ FAJARDO JOSE SATURNINO",
+    "email": "jsperezf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:00",
+    "end": "12:00",
+    "subjects": [
+      "GEOTECNIA I"
+    ],
+    "place": "Edificio \"G\", último piso"
+  },
+  {
+    "id": "sch_0201",
+    "owner_id": "jsperezf@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ FAJARDO JOSE SATURNINO",
+    "email": "jsperezf@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:00",
+    "end": "12:00",
+    "subjects": [
+      "GEOTECNIA II"
+    ],
+    "place": "Edificio \"G\", último piso"
+  },
+  {
+    "id": "sch_0202",
+    "owner_id": "jcperezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MERLOS JUAN CARLOS",
+    "email": "jcperezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "ELECTRONICA"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0203",
+    "owner_id": "jcperezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MERLOS JUAN CARLOS",
+    "email": "jcperezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "TEORIA ELECTROMAGNETICA II"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0204",
+    "owner_id": "jcperezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MERLOS JUAN CARLOS",
+    "email": "jcperezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "MICROCONTROLADORES"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0205",
+    "owner_id": "jcperezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MERLOS JUAN CARLOS",
+    "email": "jcperezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "REDES DE COMUNICACION"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0206",
+    "owner_id": "jcperezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MERLOS JUAN CARLOS",
+    "email": "jcperezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "MICROPROCESADORES I"
+    ],
+    "place": "Despacho, Edificio \"C\", primer piso"
+  },
+  {
+    "id": "sch_0207",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "TERMODINAMICA Y ELECTROMAGNETISMO"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0208",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "ANALISIS ESTRUCTURAL I"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0209",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "DISEÑO DE ESTRUCTURAS DE ACERO"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0210",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "MECANICA DE MATERIALES"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0211",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "TERMODINAMICA Y ELECTROMAGNETISMO"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0212",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "ANALISIS ESTRUCTURAL I"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0213",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "DISEÑO DE ESTRUCTURAS DE ACERO"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0214",
+    "owner_id": "jperezmo@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "PEREZ MORALES JUDITH",
+    "email": "jperezmo@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "13:00",
+    "end": "14:00",
+    "subjects": [
+      "MECANICA DE MATERIALES"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios)"
+  },
+  {
+    "id": "sch_0215",
+    "owner_id": "jcposadasb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "POSADAS BASURTO JUAN CARLOS",
+    "email": "jcposadasb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ANALISIS DE MECANISMOS"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0216",
+    "owner_id": "jcposadasb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "POSADAS BASURTO JUAN CARLOS",
+    "email": "jcposadasb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "INGENIERIA TERMICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0217",
+    "owner_id": "jcposadasb@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "POSADAS BASURTO JUAN CARLOS",
+    "email": "jcposadasb@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "TERMODINAMICA"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0218",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "12:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0219",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "12:00",
+    "subjects": [
+      "TERMOQUIMICA"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0220",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "12:00",
+    "subjects": [
+      "MATERIALES PARA APLICACIONES FOTOTERMICAS"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0221",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "12:00",
+    "subjects": [
+      "MATERIALES PARA APLICACIONES OPTOELECTROQUIMICAS"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0222",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "15:00",
+    "end": "17:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0223",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "15:00",
+    "end": "17:00",
+    "subjects": [
+      "TERMOQUIMICA"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0224",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "15:00",
+    "end": "17:00",
+    "subjects": [
+      "MATERIALES PARA APLICACIONES FOTOTERMICAS"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0225",
+    "owner_id": "mtramirezp@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ PALMA MARIA TERESA",
+    "email": "mtramirezp@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "15:00",
+    "end": "17:00",
+    "subjects": [
+      "MATERIALES PARA APLICACIONES OPTOELECTROQUIMICAS"
+    ],
+    "place": "Salón. 3er. Piso. Edificio \"G\""
+  },
+  {
+    "id": "sch_0226",
+    "owner_id": "lramirezr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ REVUELTAS LAURA",
+    "email": "lramirezr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "HIDRAULICA"
+    ],
+    "place": "Cubículo 8, Área de posgrado, Edificio A"
+  },
+  {
+    "id": "sch_0227",
+    "owner_id": "lramirezr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ REVUELTAS LAURA",
+    "email": "lramirezr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "14:00",
+    "end": "15:00",
+    "subjects": [
+      "TRANSPORTE"
+    ],
+    "place": "Cubículo 8, Área de posgrado, Edificio A"
+  },
+  {
+    "id": "sch_0228",
+    "owner_id": "lramirezr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ REVUELTAS LAURA",
+    "email": "lramirezr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "HIDRAULICA"
+    ],
+    "place": "Cubículo 8, Área de posgrado, Edificio A"
+  },
+  {
+    "id": "sch_0229",
+    "owner_id": "lramirezr@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RAMIREZ REVUELTAS LAURA",
+    "email": "lramirezr@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "TRANSPORTE"
+    ],
+    "place": "Cubículo 8, Área de posgrado, Edificio A"
+  },
+  {
+    "id": "sch_0230",
+    "owner_id": "erodrigueza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RODRIGUEZ ANGELES EDUARDO",
+    "email": "erodrigueza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "07:00",
+    "end": "09:00",
+    "subjects": [
+      "CALCULO AVANZADO"
+    ],
+    "place": "Cubículo 16, Edificio A"
+  },
+  {
+    "id": "sch_0231",
+    "owner_id": "erodrigueza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RODRIGUEZ ANGELES EDUARDO",
+    "email": "erodrigueza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "07:00",
+    "end": "09:00",
+    "subjects": [
+      "CONTROL ANALOGICO Y DIGITAL I"
+    ],
+    "place": "Cubículo 16, Edificio A"
+  },
+  {
+    "id": "sch_0232",
+    "owner_id": "erodrigueza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RODRIGUEZ ANGELES EDUARDO",
+    "email": "erodrigueza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "07:00",
+    "end": "09:00",
+    "subjects": [
+      "SISTEMAS LINEALES Y SEÑALES"
+    ],
+    "place": "Cubículo 16, Edificio A"
+  },
+  {
+    "id": "sch_0233",
+    "owner_id": "erodrigueza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RODRIGUEZ ANGELES EDUARDO",
+    "email": "erodrigueza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "CALCULO AVANZADO"
+    ],
+    "place": "Cubículo 16, Edificio A"
+  },
+  {
+    "id": "sch_0234",
+    "owner_id": "erodrigueza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RODRIGUEZ ANGELES EDUARDO",
+    "email": "erodrigueza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "CONTROL ANALOGICO Y DIGITAL I"
+    ],
+    "place": "Cubículo 16, Edificio A"
+  },
+  {
+    "id": "sch_0235",
+    "owner_id": "erodrigueza@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "RODRIGUEZ ANGELES EDUARDO",
+    "email": "erodrigueza@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "SISTEMAS LINEALES Y SEÑALES"
+    ],
+    "place": "Cubículo 16, Edificio A"
+  },
+  {
+    "id": "sch_0236",
+    "owner_id": "cromeroa511@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO ARREOLA CARLOS ARTURO",
+    "email": "cromeroa511@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "PROYECTO DE INVESTIGACION"
+    ],
+    "place": "Sala de Profesores (junto a Control Escolar)"
+  },
+  {
+    "id": "sch_0237",
+    "owner_id": "cromeroa511@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO ARREOLA CARLOS ARTURO",
+    "email": "cromeroa511@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "EPISTEMOLOGIA"
+    ],
+    "place": "Sala de Profesores (junto a Control Escolar)"
+  },
+  {
+    "id": "sch_0238",
+    "owner_id": "cromeroa511@profesor.uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO ARREOLA CARLOS ARTURO",
+    "email": "cromeroa511@profesor.uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "ETICA DE LA CONFIANZA COMO RESPONSABILIDAD"
+    ],
+    "place": "Sala de Profesores (junto a Control Escolar)"
+  },
+  {
+    "id": "sch_0239",
+    "owner_id": "mromeroh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO HUERTAS MARCELO",
+    "email": "mromeroh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "15:00",
+    "subjects": [
+      "COMPUTER NETWORKS"
+    ],
+    "place": "Dirección de la Facultad de Ingeniería"
+  },
+  {
+    "id": "sch_0240",
+    "owner_id": "mromeroh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO HUERTAS MARCELO",
+    "email": "mromeroh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "15:00",
+    "subjects": [
+      "METODOS ESTADISTICOS"
+    ],
+    "place": "Dirección de la Facultad de Ingeniería"
+  },
+  {
+    "id": "sch_0241",
+    "owner_id": "mromeroh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO HUERTAS MARCELO",
+    "email": "mromeroh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "15:00",
+    "subjects": [
+      "PROTOCOLOS DE COMUNICACION DE DATOS"
+    ],
+    "place": "Dirección de la Facultad de Ingeniería"
+  },
+  {
+    "id": "sch_0242",
+    "owner_id": "mromeroh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO HUERTAS MARCELO",
+    "email": "mromeroh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "17:00",
+    "end": "20:00",
+    "subjects": [
+      "COMPUTER NETWORKS"
+    ],
+    "place": "Dirección de la Facultad de Ingeniería"
+  },
+  {
+    "id": "sch_0243",
+    "owner_id": "mromeroh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO HUERTAS MARCELO",
+    "email": "mromeroh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "17:00",
+    "end": "20:00",
+    "subjects": [
+      "METODOS ESTADISTICOS"
+    ],
+    "place": "Dirección de la Facultad de Ingeniería"
+  },
+  {
+    "id": "sch_0244",
+    "owner_id": "mromeroh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO HUERTAS MARCELO",
+    "email": "mromeroh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "17:00",
+    "end": "20:00",
+    "subjects": [
+      "PROTOCOLOS DE COMUNICACION DE DATOS"
+    ],
+    "place": "Dirección de la Facultad de Ingeniería"
+  },
+  {
+    "id": "sch_0245",
+    "owner_id": "eromerom@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO MARIANO ESMERALDA",
+    "email": "eromerom@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "EPISTEMOLOGIA"
+    ],
+    "place": "Sala de Cómputo. Edificio \"A\""
+  },
+  {
+    "id": "sch_0246",
+    "owner_id": "eromerom@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO MARIANO ESMERALDA",
+    "email": "eromerom@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "16:00",
+    "end": "17:00",
+    "subjects": [
+      "EPISTEMOLOGIA"
+    ],
+    "place": "Sala de Cómputo. Edificio \"A\""
+  },
+  {
+    "id": "sch_0247",
+    "owner_id": "jromero@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO TORRES JAVIER",
+    "email": "jromero@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA DE SISTEMAS I"
+    ],
+    "place": "Cubículo. 2do. Piso, Edificio \"G\""
+  },
+  {
+    "id": "sch_0248",
+    "owner_id": "jromero@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO TORRES JAVIER",
+    "email": "jromero@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA ECONOMICA"
+    ],
+    "place": "Cubículo. 2do. Piso, Edificio \"G\""
+  },
+  {
+    "id": "sch_0249",
+    "owner_id": "jromero@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO TORRES JAVIER",
+    "email": "jromero@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "EVALUACION DE PROYECTOS"
+    ],
+    "place": "Cubículo. 2do. Piso, Edificio \"G\""
+  },
+  {
+    "id": "sch_0250",
+    "owner_id": "jromero@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO TORRES JAVIER",
+    "email": "jromero@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA DE SISTEMAS I"
+    ],
+    "place": "Cubículo. 2do. Piso, Edificio \"G\""
+  },
+  {
+    "id": "sch_0251",
+    "owner_id": "jromero@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO TORRES JAVIER",
+    "email": "jromero@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA ECONOMICA"
+    ],
+    "place": "Cubículo. 2do. Piso, Edificio \"G\""
+  },
+  {
+    "id": "sch_0252",
+    "owner_id": "jromero@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "ROMERO TORRES JAVIER",
+    "email": "jromero@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "10:00",
+    "end": "11:00",
+    "subjects": [
+      "EVALUACION DE PROYECTOS"
+    ],
+    "place": "Cubículo. 2do. Piso, Edificio \"G\""
+  },
+  {
+    "id": "sch_0253",
+    "owner_id": "msalgadog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "SALGADO GALLEGOS MIREYA",
+    "email": "msalgadog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "10:00",
+    "end": "12:00",
+    "subjects": [
+      "ESTRUCTURAS DE DATOS"
+    ],
+    "place": "Cubículo  junto a Coordinación de Computación"
+  },
+  {
+    "id": "sch_0254",
+    "owner_id": "msalgadog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "SALGADO GALLEGOS MIREYA",
+    "email": "msalgadog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "10:00",
+    "end": "12:00",
+    "subjects": [
+      "METODOS ESTADISTICOS"
+    ],
+    "place": "Cubículo  junto a Coordinación de Computación"
+  },
+  {
+    "id": "sch_0255",
+    "owner_id": "msalgadog@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "SALGADO GALLEGOS MIREYA",
+    "email": "msalgadog@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "10:00",
+    "end": "12:00",
+    "subjects": [
+      "GESTION DE PROYECTOS DE INVESTIGACION"
+    ],
+    "place": "Cubículo  junto a Coordinación de Computación"
+  },
+  {
+    "id": "sch_0256",
+    "owner_id": "jsanchezh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "SANCHEZ HERRERA JUAN",
+    "email": "jsanchezh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "ARQUITECTURA DE REDES"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0257",
+    "owner_id": "jsanchezh@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "SANCHEZ HERRERA JUAN",
+    "email": "jsanchezh@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "PROTOCOLOS DE COMUNICACION DE DATOS"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0258",
+    "owner_id": "mesuarezd@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "SUAREZ DE LA VEGA MIRIAM ESTHELA",
+    "email": "mesuarezd@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "COMUNICACION ORAL Y ESCRITA"
+    ],
+    "place": "Chat de MS TEAMS"
+  },
+  {
+    "id": "sch_0259",
+    "owner_id": "mesuarezd@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "SUAREZ DE LA VEGA MIRIAM ESTHELA",
+    "email": "mesuarezd@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "11:00",
+    "end": "13:00",
+    "subjects": [
+      "ETICA Y RESPONSABILIDAD PROFESIONAL"
+    ],
+    "place": "Chat de MS TEAMS"
+  },
+  {
+    "id": "sch_0260",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "METROLOGIA ELECTRICA Y ELECTRONICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0261",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "INSTALACIONES ELECTRICAS INDUSTRIALES"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0262",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "MAQUINAS ELECTRICAS"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0263",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "MAQUINAS ELECTRICAS I"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0264",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "METROLOGIA ELECTRICA Y ELECTRONICA"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0265",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "INSTALACIONES ELECTRICAS INDUSTRIALES"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0266",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "MAQUINAS ELECTRICAS"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0267",
+    "owner_id": "jtepepam@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TEPEPA MARTINEZ JAVIER",
+    "email": "jtepepam@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "08:30",
+    "end": "09:00",
+    "subjects": [
+      "MAQUINAS ELECTRICAS I"
+    ],
+    "place": "nan"
+  },
+  {
+    "id": "sch_0268",
+    "owner_id": "mtorress@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TORRES SANCHEZ MERCED",
+    "email": "mtorress@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "DISEÑO DE ESTRUCTURAS DE CONCRETO"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0269",
+    "owner_id": "mtorress@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "TORRES SANCHEZ MERCED",
+    "email": "mtorress@uaemex.mx",
+    "type": "asesoria",
+    "day": "Por Confirmar",
+    "start": "",
+    "end": "",
+    "subjects": [
+      "CALCULO III"
+    ],
+    "place": "Comunicarse por MS TEAMS, para agendar cita"
+  },
+  {
+    "id": "sch_0270",
+    "owner_id": "bvallea@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VALLE AGUILAR BALAAM",
+    "email": "bvallea@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "AUTOMATIZACION DE PROCESOS INDUSTRIALES"
+    ],
+    "place": "Cubículo 5, Coordinación IME, Edificio H"
+  },
+  {
+    "id": "sch_0271",
+    "owner_id": "bvallea@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VALLE AGUILAR BALAAM",
+    "email": "bvallea@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "12:00",
+    "end": "14:00",
+    "subjects": [
+      "AUTOMATIZACION DE PROCESOS INDUSTRIALES"
+    ],
+    "place": "Cubículo 5, Coordinación IME, Edificio H"
+  },
+  {
+    "id": "sch_0272",
+    "owner_id": "gvazquezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VAZQUEZ MEJIA GUADALUPE",
+    "email": "gvazquezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "19:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios) y Auditorio 118"
+  },
+  {
+    "id": "sch_0273",
+    "owner_id": "gvazquezm@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VAZQUEZ MEJIA GUADALUPE",
+    "email": "gvazquezm@uaemex.mx",
+    "type": "asesoria",
+    "day": "Martes",
+    "start": "11:00",
+    "end": "12:00",
+    "subjects": [
+      "QUIMICA"
+    ],
+    "place": "Coordinación de tutoría (área de escritorios) y Auditorio 118"
+  },
+  {
+    "id": "sch_0274",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "MATEMATICAS DISCRETAS"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0275",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "KNOWLEDGE REPRESENTATION"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0276",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "GRAFICACION COMPUTACIONAL"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0277",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA DE SOFTWARE II"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0278",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Lunes",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "PARADIGMAS DE PROGRAMACION I"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0279",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "MATEMATICAS DISCRETAS"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0280",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "KNOWLEDGE REPRESENTATION"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0281",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "GRAFICACION COMPUTACIONAL"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0282",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "INGENIERIA DE SOFTWARE II"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0283",
+    "owner_id": "sveran@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERA NOGUEZ SARA",
+    "email": "sveran@uaemex.mx",
+    "type": "asesoria",
+    "day": "Jueves",
+    "start": "09:00",
+    "end": "11:00",
+    "subjects": [
+      "PARADIGMAS DE PROGRAMACION I"
+    ],
+    "place": "Cubículo E1. Planta baja Edificio \"E\""
+  },
+  {
+    "id": "sch_0284",
+    "owner_id": "gvertizc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERTIZ CAMARON GASTON",
+    "email": "gvertizc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "INGENIERIA DE SISTEMAS I"
+    ],
+    "place": "Cubículo 22, Edificio A"
+  },
+  {
+    "id": "sch_0285",
+    "owner_id": "gvertizc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERTIZ CAMARON GASTON",
+    "email": "gvertizc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "INGENIERIA DE SISTEMAS II"
+    ],
+    "place": "Cubículo 22, Edificio A"
+  },
+  {
+    "id": "sch_0286",
+    "owner_id": "gvertizc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERTIZ CAMARON GASTON",
+    "email": "gvertizc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Miercoles",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "METODOS NUMERICOS"
+    ],
+    "place": "Cubículo 22, Edificio A"
+  },
+  {
+    "id": "sch_0287",
+    "owner_id": "gvertizc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERTIZ CAMARON GASTON",
+    "email": "gvertizc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "INGENIERIA DE SISTEMAS I"
+    ],
+    "place": "Cubículo 22, Edificio A"
+  },
+  {
+    "id": "sch_0288",
+    "owner_id": "gvertizc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERTIZ CAMARON GASTON",
+    "email": "gvertizc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "INGENIERIA DE SISTEMAS II"
+    ],
+    "place": "Cubículo 22, Edificio A"
+  },
+  {
+    "id": "sch_0289",
+    "owner_id": "gvertizc@uaemex.mx",
+    "owner_role": "tutor",
+    "owner_name": "VERTIZ CAMARON GASTON",
+    "email": "gvertizc@uaemex.mx",
+    "type": "asesoria",
+    "day": "Viernes",
+    "start": "13:00",
+    "end": "15:00",
+    "subjects": [
+      "METODOS NUMERICOS"
+    ],
+    "place": "Cubículo 22, Edificio A"
+  }
+]
